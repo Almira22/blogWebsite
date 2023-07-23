@@ -1,10 +1,12 @@
 
 
+require ("dotenv").config();
 const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const _ = require("lodash");
 const mongoose = require ("mongoose");
+const PORT = process.env.PORT || 3000;
 
 const homeStartingContent = " Howdy! Welcome to your safe space where you can freely share your thoughts and ideas with no fear or judgment! ";
 const aboutContent = "This project was ceated by Almira as part of an excercise to reinforce the what I have learned so far in MongoDB,API,EJS course modules, I hope you enjoyed it as much as I did!";
@@ -72,8 +74,7 @@ app.get("/posts/:postId", function(req, res){
 
 });
 
-app.listen(3000, function() {
-  console.log("Server started on port 3000");
+app.listen(PORT, function() {
+  console.log(`Server started on port ${PORT}`);
 });
-
 
