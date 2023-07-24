@@ -15,9 +15,10 @@ html {
     margin-bottom: 0;
     font-size: 12px;
     letter-spacing: 5px;
+    background-color: rgb(110, 171, 110);
 }
 .navbar-nav  li a:hover {
-    color: #1abc9c !important;
+    color: #2ea363 !important;
 }
 
 .footer-padding {
@@ -30,11 +31,11 @@ html {
 	bottom: 0;
 	width: 100%;
 	height: 60px;
-	background-color: #1abc9c;
+	background-color: #33b34b;
 }
 
 .footer p {
 	margin-top: 25px;
 	font-size: 12px;
-  color: #fff;
+  color: rgb(97, 240, 84);
 }
