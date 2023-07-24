@@ -9,7 +9,7 @@ const mongoose = require ("mongoose");
 const PORT = process.env.PORT || 3000;
 
 const homeStartingContent = " Howdy! Welcome to your safe space where you can freely share your thoughts and ideas with no fear or judgment! ";
-const aboutContent = "This project was ceated by Almira as part of an excercise to reinforce the what I have learned so far in MongoDB,API,EJS course modules, I hope you enjoyed it as much as I did!";
+const aboutContent = "This project was created by Almira as part of an exercise to reinforce the concepts learned such as MongoDB, API, and EJS. I hope you enjoyed it as much as I did!";
 const contactContent = "If you would like to share something in private or would like to give me advise or pointers to improve this website, please feel free to reach out to me at almira199625@gmail.com"
 const app = express();
 
